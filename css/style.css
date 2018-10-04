@@ -258,17 +258,26 @@ footer div.socialMedia {
 
   section {
   }
-  /***
-  section {
-    width:75%;
-    float:left;
-  }
-  aside {
-    width: 24%;
-    float:right;
-  }
-  footer {
-    clear:both;
-  }
-  ***/
+
 }
+
+  @media screen and (max-width: 1023px) {
+    header div.header_search {
+      grid-column-start: 1;
+      grid-column-end: 4;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    header {
+      grid-template-columns: 25% 50% 25%;
+    }
+    header .header_logo1, header .header_logo2 {
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+    header div.header_search {
+      text-align:right;
+      padding-right: 10px;
+    }
+  }
