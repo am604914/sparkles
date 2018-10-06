@@ -44,9 +44,9 @@ header div.header_cart {
 
 header div.header_search {
   /* this tells the browser to "span" the grid columns */
-  grid-column-start: 1;
+  /*grid-column-start: 1;*/
   /* notice the grid-column-end is number of columns + 1 */
-  grid-column-end: 4;
+  /*grid-column-end: 4;*/
   text-align:center;
 }
 
@@ -278,6 +278,6 @@ footer div.socialMedia {
     }
     header div.header_search {
       text-align:right;
-      padding-right: 10px;
+      padding-right: 10px
     }
   }
